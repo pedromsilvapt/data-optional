@@ -20,7 +20,7 @@ value.isPresent(); // true
 
 You can also convert nullable types into optionals.
 ```typescript
-import Optional from 'data-optional';
+import { Optional } from 'data-optional';
 
 const empty = Optional.ofNullable( null );
 const value = Optional.ofNullable( 1 );
@@ -31,6 +31,8 @@ value.isPresent(); // true
 
 There are also a number of computations that can be done functionally with this module.
 ```typescript
+import { Optional } from 'data-optional';
+
 value = Optional.ofNullable( 1 );
 
 value = value.map( n => n * 3 ); // Optional.of( 3 )

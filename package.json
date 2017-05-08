@@ -1,8 +1,9 @@
 {
   "name": "data-optional",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple Java8-inspired monadic class to represent optional values",
-  "main": "lib/Optional.js",
+  "main": "./lib/Optional.js",
+  "types": "./lib/Optional.d.ts",
   "repository": "scorchpt/data-optional",
   "keywords": [
     "js",
