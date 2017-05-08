@@ -1,0 +1,21 @@
+{
+  "name": "data-optional",
+  "version": "0.0.1",
+  "description": "Simple Java8-inspired monadic class to represent optional values",
+  "main": "lib/Optional.js",
+  "repository": "scorchpt/data-optional",
+  "keywords": [
+    "js",
+    "immutable",
+    "optional",
+    "monadic",
+    "data",
+    "values",
+    "container"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro M. Silva <pemiolsi@hotmail.com>",
+  "license": "ISC"
+}
